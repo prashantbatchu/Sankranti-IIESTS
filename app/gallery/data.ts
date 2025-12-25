@@ -131,6 +131,9 @@ export const photoGroups = [
     sections: {
       Sankranthi: [
         "/galleryphotos/2023/sankranthi/framebird-converted2/IMG_2532.webp",
+        "/galleryphotos/2023/sankranthi/framebird-converted2/san23n2.webp",
+        "/galleryphotos/2023/sankranthi/framebird-converted2/san23n3.webp",
+
         "/galleryphotos/2023/sankranthi/framebird-converted2/IMG-20251116-WA0017.webp", 
         
         "/galleryphotos/2023/sankranthi/framebird-converted2/IMG_1293.webp",
