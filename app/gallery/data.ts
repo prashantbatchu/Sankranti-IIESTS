@@ -10,28 +10,30 @@ export const photoGroups = [
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0230.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0234.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0224.webp",
-
+        
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0416.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0409.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san251.webp",
-
+        // "/galleryphotos/2025/sankranthi/framebird-converted/san251.webp",
+        
         "/galleryphotos/2025/sankranthi/framebird-converted/san252.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/san253.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/san25n1.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san25n2.webp",
+        
+        
         "/galleryphotos/2025/sankranthi/framebird-converted/san25n3.webp",
-
+        
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0425.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/san25n2.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/skrwt2.webp",
-
+        
         "/galleryphotos/2025/sankranthi/framebird-converted/skrwt1.webp",
-
+        
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0366.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0418.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0419.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0417.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0420.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0421.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0419.webp",
         
         
       ],
@@ -145,10 +147,10 @@ export const photoGroups = [
         "/galleryphotos/2023/sankranthi/framebird-converted2/san231.webp",
         
         "/galleryphotos/2023/sankranthi/framebird-converted2/WhatsApp Image 1.webp",
-        "/galleryphotos/2023/sankranthi/framebird-converted2/san232.webp",
         "/galleryphotos/2023/sankranthi/framebird-converted2/WhatsApp Image 3.webp",
         
         "/galleryphotos/2023/sankranthi/framebird-converted2/WhatsApp Image 2.webp",
+        "/galleryphotos/2023/sankranthi/framebird-converted2/san232.webp",
         "/galleryphotos/2023/sankranthi/framebird-converted2/san23n1.webp",
         "/galleryphotos/2023/sankranthi/framebird-converted2/san233.webp",
         "/galleryphotos/2023/sankranthi/framebird-converted2/WhatsApp Image 4.webp",

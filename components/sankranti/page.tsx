@@ -5,6 +5,7 @@ import {
   useScroll,
   useTransform,
   AnimatePresence,
+  scale,
 } from "framer-motion";
 import { useRef, useState, useEffect } from "react";
 import Image from "next/image";
@@ -20,7 +21,7 @@ const EVENTS = [
   {
     title: "Morning Puja",
     date: "11 Jan 2026",
-    time: "9:00 AM",
+    time: "8:30 AM",
     venue: "Netaji Bhavan",
     icon: "🙏",
   },
@@ -46,7 +47,7 @@ const EVENTS = [
     icon: "🎧",
   },
   {
-    title: "Lunch",
+    title: "Sankranti Feast",
     date: "11 Jan 2026",
     time: "12:30 PM",
     venue: "Netaji Bhavan",

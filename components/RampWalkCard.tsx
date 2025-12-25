@@ -25,7 +25,7 @@ export default function RampWalkCard() {
           <div className="flex justify-between items-start">
             {/* Title color changed to yellow-100 */}
             <h3 className="text-yellow-100 font-[var(--font-cinzel)] text-sm font-bold">
-              Fashion Show
+              Classical Parade
             </h3>
             {/* Badge color changed to red (like the Dhoti card's badge) for symmetry */}
             <span className="text-[10px] px-2 py-0.5 bg-red-500/80 text-white rounded-full">
