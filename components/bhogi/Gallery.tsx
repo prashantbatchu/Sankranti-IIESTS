@@ -11,12 +11,12 @@ const castoro = Castoro_Titling({
 });
 
 const images = [
-  "/bhogi/img1.webp",
-  "/bhogi/img2.webp",
-  "/bhogi/img3.webp",
-  "/bhogi/img4.webp",
-  "/bhogi/img5.webp",
-  "/bhogi/img6.webp",
+  "/galleryphotos/2025/bhogi/bg254.webp",
+  "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.05.webp",
+  "/galleryphotos/2023/bhogi/framebird-converted23/bg234.webp",
+  "/galleryphotos/2023/bhogi/framebird-converted23/IMG_4741 (1).webp",
+        "/galleryphotos/2023/bhogi/framebird-converted23/IMG_0851.webp",
+        "/galleryphotos/2024/bhogi/bg24_1.webp",
 ];
 
 const filmReelImages = [...images, ...images, ...images];
