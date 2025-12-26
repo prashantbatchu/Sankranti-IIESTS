@@ -238,7 +238,8 @@ export default function Footer() {
                   href="/food"
                   className="hover:text-yellow-300 transition-colors"
                 >
-                  Lunch Registration
+                  Sankranthi Feast
+                  Registration
                 </Link>
               </li>
             </ul>

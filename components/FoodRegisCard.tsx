@@ -25,7 +25,7 @@ export default function FoodRegistrationCard() {
         <div className="flex flex-col flex-1">
           <div className="flex justify-between items-start">
             <h3 className="text-green-100 font-[var(--font-cinzel)] text-sm font-bold">
-              Grand Pongal Feast
+              Sankranthi Feast
             </h3>
             <span className="text-[10px] px-2 py-0.5 bg-green-600/80 text-white rounded-full">
               Limited Seats
