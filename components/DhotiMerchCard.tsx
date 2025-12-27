@@ -4,7 +4,7 @@ import Image from "next/image";
 import { ShoppingBag } from "lucide-react";
 
 export default function DhotiMerchCard() {
-    const googleFormUrl = "https://forms.google.com/your-dhoti-form-link";
+    const googleFormUrl = "https://forms.gle/kQq64HzAMZiHjtQL8";
   return (
     <Link href={googleFormUrl} 
       target="_blank" 

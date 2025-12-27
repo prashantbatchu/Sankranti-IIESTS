@@ -4,7 +4,7 @@ import { UtensilsCrossed } from "lucide-react";
 
 export default function FoodRegistrationCard() {
   // Replace with your actual food registration form URL
-  const googleFormUrl = "https://forms.google.com/your-food-form-link";
+  const googleFormUrl = "https://formlimit.everestwebdeals.co/?form=441dea827d9aa3f042240263fc13e479";
 
   return (
     <Link 
