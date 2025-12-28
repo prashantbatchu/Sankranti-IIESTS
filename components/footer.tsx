@@ -222,7 +222,7 @@ export default function Footer() {
                   href="https://forms.gle/vEzP8wrzWEu2Edfa7"
                   className="hover:text-yellow-300 transition-colors"
                 >
-                  Rampwalk Show
+                  Classical Parade Registration
                 </Link>
               </li>
               <li>
