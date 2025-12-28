@@ -110,11 +110,7 @@ export default function Footer() {
                         <stop stopColor="#E0E8B7" />
                         <stop offset="0.444662" stopColor="#FB8A2E" />
                         <stop offset="0.71474" stopColor="#E2425C" />
-                        <stop
-                          offset="1"
-                          stopColor="#E2425C"
-                          stopOpacity="0"
-                        />
+                        <stop offset="1" stopColor="#E2425C" stopOpacity="0" />
                       </radialGradient>
                       <radialGradient
                         id="paint2_radial_87_7153"
@@ -126,11 +122,7 @@ export default function Footer() {
                       >
                         <stop offset="0.156701" stopColor="#406ADC" />
                         <stop offset="0.467799" stopColor="#6A45BE" />
-                        <stop
-                          offset="1"
-                          stopColor="#6A45BE"
-                          stopOpacity="0"
-                        />
+                        <stop offset="1" stopColor="#6A45BE" stopOpacity="0" />
                       </radialGradient>
                     </defs>
                   </svg>
@@ -219,7 +211,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="/dhoti-merch"
+                  href="https://forms.gle/kQq64HzAMZiHjtQL8"
                   className="hover:text-yellow-300 transition-colors"
                 >
                   Dhoti Merch
@@ -227,7 +219,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/rampwalk"
+                  href="https://forms.gle/vEzP8wrzWEu2Edfa7"
                   className="hover:text-yellow-300 transition-colors"
                 >
                   Rampwalk Show
@@ -235,11 +227,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="/food"
+                  href="https://formlimit.everestwebdeals.co/?form=441dea827d9aa3f042240263fc13e479"
                   className="hover:text-yellow-300 transition-colors"
                 >
-                  Sankranthi Feast
-                  Registration
+                  Sankranthi Feast Registration
                 </Link>
               </li>
             </ul>
