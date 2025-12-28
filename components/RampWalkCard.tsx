@@ -4,7 +4,7 @@ import { UserPlus } from "lucide-react";
 
 export default function RampWalkCard() {
   // Replace with your actual ramp walk form URL
-  const googleFormUrl = "https://forms.google.com/your-ramp-walk-form-link";
+  const googleFormUrl = "https://forms.gle/vEzP8wrzWEu2Edfa7";
 
   return (
     <Link 
