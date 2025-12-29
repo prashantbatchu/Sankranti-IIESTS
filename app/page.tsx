@@ -17,13 +17,13 @@ import FoodRegistrationCard from "@/components/FoodRegisCard";
 const greatVibes = Great_Vibes({
   subsets: ["latin"],
   weight: "400",
-  variable: "--font-great-vibes"
+  variable: "--font-great-vibes",
 });
 
 const cinzel = Cinzel({
   subsets: ["latin"],
   weight: ["400", "700"],
-  variable: "--font-cinzel"
+  variable: "--font-cinzel",
 });
 
 const Kite = ({
@@ -67,13 +67,33 @@ const Kite = ({
           stroke="white"
           strokeWidth="1.5"
           strokeOpacity="0.8"
-          animate={{ d: ["M50 100 Q 40 130 30 150", "M50 100 Q 60 130 70 150", "M50 100 Q 40 130 30 150"] }}
-          transition={{ duration: randomDur / 1.5, repeat: Infinity, ease: "easeInOut" }}
+          animate={{
+            d: [
+              "M50 100 Q 40 130 30 150",
+              "M50 100 Q 60 130 70 150",
+              "M50 100 Q 40 130 30 150",
+            ],
+          }}
+          transition={{
+            duration: randomDur / 1.5,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
         />
-        <path d="M50 0 L95 50 L50 100 L5 50 Z" fill={color} stroke="#fcd34d" strokeWidth="2" />
+        <path
+          d="M50 0 L95 50 L50 100 L5 50 Z"
+          fill={color}
+          stroke="#fcd34d"
+          strokeWidth="2"
+        />
         <path d="M50 0 L50 100" stroke="#fcd34d" strokeWidth="1.5" />
         <path d="M5 50 L95 50" stroke="#fcd34d" strokeWidth="1.5" />
-        <path d="M40 100 L60 100 L50 120 Z" fill={color} stroke="#fcd34d" strokeWidth="1" />
+        <path
+          d="M40 100 L60 100 L50 120 Z"
+          fill={color}
+          stroke="#fcd34d"
+          strokeWidth="1"
+        />
       </svg>
     </motion.div>
   );
@@ -85,14 +105,19 @@ const RotatingRangoli = () => {
       <motion.div
         animate={{ rotate: 360 }}
         transition={{ duration: 60, repeat: Infinity, ease: "linear" }}
+        style={{ willChange: "transform" }} // Optimizes animation performance
         className="w-[350px] sm:w-[450px] md:w-[600px]"
       >
-        <img
+        <Image
           src="/decor/rangoli.webp"
-          alt="Rangoli"
+          alt="Rangoli decorative pattern"
+          width={600}
+          height={600}
           className="w-full h-auto object-contain drop-shadow-[0_0_15px_rgba(251,191,36,0.3)]"
+          fetchPriority="high"
+          decoding="async"
           onError={(e) => {
-            e.currentTarget.style.display = 'none';
+            e.currentTarget.style.display = "none";
           }}
         />
       </motion.div>
@@ -131,18 +156,38 @@ const FallingParticles = () => {
               ease: "linear",
             }}
           />
-        )
+        );
       })}
     </div>
   );
 };
 
 const kiteConfig = [
-  { color: "#3b82f6", className: "bottom-[35%] left-[20%] w-[100px] md:w-[160px]", delay: 0 },
-  { color: "#ef4444", className: "top-[25%] right-[10%] w-[90px] md:w-[180px] scale-x-[-1]", delay: 1.5 },
-  { color: "#facc15", className: "top-[15%] left-[8%] w-[70px] md:w-[120px]", delay: 0.5 },
-  { color: "#a855f7", className: "top-[40%] right-[25%] w-[80px] md:w-[140px] rotate-[15deg]", delay: 2.5 },
-  { color: "#10b981", className: "top-[12%] left-[40%] w-[50px] md:w-[90px] opacity-70", delay: 3.5 },
+  {
+    color: "#3b82f6",
+    className: "bottom-[35%] left-[20%] w-[100px] md:w-[160px]",
+    delay: 0,
+  },
+  {
+    color: "#ef4444",
+    className: "top-[25%] right-[10%] w-[90px] md:w-[180px] scale-x-[-1]",
+    delay: 1.5,
+  },
+  {
+    color: "#facc15",
+    className: "top-[15%] left-[8%] w-[70px] md:w-[120px]",
+    delay: 0.5,
+  },
+  {
+    color: "#a855f7",
+    className: "top-[40%] right-[25%] w-[80px] md:w-[140px] rotate-[15deg]",
+    delay: 2.5,
+  },
+  {
+    color: "#10b981",
+    className: "top-[12%] left-[40%] w-[50px] md:w-[90px] opacity-70",
+    delay: 3.5,
+  },
 ];
 
 export default function Page() {
@@ -155,14 +200,17 @@ export default function Page() {
 
   return (
     <>
-      <div className={`relative min-h-[140vh] overflow-hidden bg-gradient-to-t from-[#240000] via-[#5e0a0a] to-[#b88a30] ${greatVibes.variable} ${cinzel.variable}`}>
-
+      <div
+        className={`relative min-h-[140vh] overflow-hidden bg-gradient-to-t from-[#240000] via-[#5e0a0a] to-[#b88a30] ${greatVibes.variable} ${cinzel.variable}`}
+      >
         <div className="absolute top-0 md:top-[60px] left-0 w-full z-10 flex justify-center gap-0 pointer-events-none">
           <div className="flex w-full max-w-[1400px] justify-center">
             {Array.from({ length: 6 }).map((_, i) => (
               <div
                 key={i}
-                className={`flex-shrink justify-center ${i >= 3 ? "hidden md:flex" : "flex"} basis-1/2 md:basis-[16%]`}
+                className={`flex-shrink justify-center ${
+                  i >= 3 ? "hidden md:flex" : "flex"
+                } basis-1/2 md:basis-[16%]`}
               >
                 <Image
                   src="/decor/garland3.webp"
@@ -179,7 +227,12 @@ export default function Page() {
         <FallingParticles />
 
         {kiteConfig.map((kite, index) => (
-          <Kite key={index} color={kite.color} className={kite.className} delay={kite.delay} />
+          <Kite
+            key={index}
+            color={kite.color}
+            className={kite.className}
+            delay={kite.delay}
+          />
         ))}
         <motion.div
           style={{ y: yText }}
@@ -187,7 +240,6 @@ export default function Page() {
            pb-20"
         >
           <div className="relative flex flex-col items-center justify-center">
-
             <RotatingRangoli />
             <div className="relative z-10 flex flex-col items-center gap-1 mt-10 md:gap-2">
               <motion.span
@@ -231,11 +283,16 @@ export default function Page() {
               transition={{ delay: 0.6, duration: 0.8 }}
               className="relative z-10 flex flex-wrap justify-center gap-6 md:gap-14 mt-8 md:mt-4 w-full"
             >
-              <NavButton onClick={() => scrollToSection("bhogi-section")}>Bhogi</NavButton>
-              <NavButton onClick={() => scrollToSection("sankranti-section")}>Sankranti</NavButton>
+              <NavButton onClick={() => scrollToSection("bhogi-section")}>
+                Bhogi
+              </NavButton>
+              <NavButton onClick={() => scrollToSection("sankranti-section")}>
+                Sankranti
+              </NavButton>
             </motion.div>
           </div>
-          <div className="
+          <div
+            className="
             relative w-full w-6xl 
             flex flex-col md:flex-row 
             items-center md:justify-center 
@@ -243,7 +300,8 @@ export default function Page() {
             mt-4 md:mt-15 z-50
             md:absolute md:bottom-8 md:left-1/2 md:-translate-x-1/2 md:px-10
             pointer-events-none
-          ">
+          "
+          >
             <div className="pointer-events-auto z-10 transform scale-90 md:scale-100">
               <DhotiMerchCard />
             </div>
@@ -275,7 +333,10 @@ export default function Page() {
       <motion.div style={{ y: yBhogi }} className="relative z-0">
         <Sparkles />
 
-        <main id="bhogi-section" className="bg-black z-0 text-white relative font-[family-name:var(--font-cinzel)]">
+        <main
+          id="bhogi-section"
+          className="bg-black z-0 text-white relative font-[family-name:var(--font-cinzel)]"
+        >
           <Hero />
           <div className="bg-gradient-to-b from-black z-0 to-gray-950">
             <AboutSection />
@@ -287,14 +348,19 @@ export default function Page() {
       </motion.div>
 
       <div id="sankranti-section" className="mt-[-150px]">
-
         <SankrantiPage />
       </div>
     </>
   );
 }
 
-const NavButton = ({ children, onClick }: { children: React.ReactNode; onClick: () => void }) => (
+const NavButton = ({
+  children,
+  onClick,
+}: {
+  children: React.ReactNode;
+  onClick: () => void;
+}) => (
   <button
     onClick={onClick}
     className=" 
