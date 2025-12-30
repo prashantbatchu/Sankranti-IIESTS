@@ -71,7 +71,7 @@ const GLIMPSES = [
     span: "col-span-1 row-span-1",
   },
   {
-    src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0407.webp",
+    src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0409.webp",
     alt: "",
     span: "col-span-1 md:col-span-2 row-span-1",
   },
