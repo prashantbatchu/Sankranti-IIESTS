@@ -56,23 +56,23 @@ const EVENTS = [
 
 const GLIMPSES = [
   {
-    src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0240.webp",
-    alt: "Kites filling the sunset sky",
+    src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0224.webp",
+    alt: "",
     span: "col-span-1 md:col-span-2 row-span-2",
   },
   {
-    src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0224.webp",
-    alt: "Bonfire night celebration",
+    src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0417.webp",
+    alt: "",
     span: "col-span-1 row-span-1",
   },
   {
     src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0420.webp",
-    alt: "Students gathering around fire",
+    alt: "",
     span: "col-span-1 row-span-1",
   },
   {
     src: "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0407.webp",
-    alt: "Warmth of the festival",
+    alt: "",
     span: "col-span-1 md:col-span-2 row-span-1",
   },
 ];

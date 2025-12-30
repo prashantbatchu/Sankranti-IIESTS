@@ -227,10 +227,10 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  href="https://formlimit.everestwebdeals.co/?form=441dea827d9aa3f042240263fc13e479"
+                  href="https://forms.gle/Wf1siMmj9H6Ac2698"
                   className="hover:text-yellow-300 transition-colors"
                 >
-                  Sankranthi Feast Registration
+                  Mark Your Presence
                 </Link>
               </li>
             </ul>
