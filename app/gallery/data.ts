@@ -9,7 +9,6 @@ export const photoGroups = [
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0364.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0366.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0234.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0416.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0409.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0425.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/skrwt2.webp",
@@ -23,7 +22,6 @@ export const photoGroups = [
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0421.webp",
       ],
       Bhogi: [
-        "/galleryphotos/2025/bhogi/IMG_2892.webp",
         "/galleryphotos/2025/bhogi/2024bg1.webp",
         "/galleryphotos/2025/bhogi/DSC_0059.webp",
         "/galleryphotos/2025/bhogi/bg2k252.webp",
@@ -105,7 +103,6 @@ export const photoGroups = [
         "/galleryphotos/2023/bhogi/framebird-converted23/IMG_0851.webp",
         "/galleryphotos/2023/bhogi/framebird-converted23/IMG_0972.webp",
         "/galleryphotos/2023/sankranthi/framebird-converted2/IMG-20251116-WA0019.webp",
-        "/galleryphotos/2023/bhogi/framebird-converted23/IMG_0638.webp",
         "/galleryphotos/2023/bhogi/framebird-converted23/bg233.webp",
         "/galleryphotos/2023/bhogi/framebird-converted23/IMG_4741 (1).webp",
       ],
