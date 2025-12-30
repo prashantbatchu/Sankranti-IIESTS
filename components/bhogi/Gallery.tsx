@@ -13,10 +13,9 @@ const castoro = Castoro_Titling({
 const images = [
   "/galleryphotos/2025/bhogi/bg254.webp",
   "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.05.webp",
-  "/galleryphotos/2023/bhogi/framebird-converted23/bg234.webp",
   "/galleryphotos/2023/bhogi/framebird-converted23/IMG_4741 (1).webp",
-        "/galleryphotos/2023/bhogi/framebird-converted23/IMG_0851.webp",
-        "/galleryphotos/2024/bhogi/bg24_1.webp",
+  "/galleryphotos/2023/bhogi/framebird-converted23/IMG_0851.webp",
+  "/galleryphotos/2024/bhogi/bg24_1.webp",
 ];
 
 const filmReelImages = [...images, ...images, ...images];
