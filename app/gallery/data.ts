@@ -4,77 +4,34 @@ export const photoGroups = [
     sections: {
       Sankranthi: [
         "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0240.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0364.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0261.webp",
-        
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0230.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0234.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0224.webp",
-        
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0416.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0409.webp",
-        
+        "/galleryphotos/2025/sankranthi/framebird-converted/skrwt2.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/san2k251.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san25n1.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san2k252.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san251.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/skrwt1.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/san2k253.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/sanedited.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/san25n1.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/san25n3.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/san25n2.webp",
+        "/galleryphotos/2025/sankranthi/framebird-converted/san2k252.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/san2k254.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/san2k255.webp",
         "/galleryphotos/2025/sankranthi/framebird-converted/san2k256.webp",
-        
-        
-        
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0425.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/skrwt2.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/sanedited.webp",
-
-
-        
-        "/galleryphotos/2025/sankranthi/framebird-converted/skrwt1.webp",
-        
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0366.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san25n2.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0418.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san25n3.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0417.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/san253.webp", 
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0420.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0421.webp",
-        "/galleryphotos/2025/sankranthi/framebird-converted/DSC_0419.webp",
-        
-        
       ],
       Bhogi: [
-        "/galleryphotos/2025/bhogi/DSC_0059.webp",
-        "/galleryphotos/2025/bhogi/DSC_0267.webp",
-        "/galleryphotos/2025/bhogi/bg2k252.webp",
-        "/galleryphotos/2025/bhogi/DSC_0050.webp",
-        // "/galleryphotos/2025/bhogi/DSC_0017.webp",
-
-        "/galleryphotos/2025/bhogi/bg251.webp",
         "/galleryphotos/2025/bhogi/bg252.webp",
-        "/galleryphotos/2025/bhogi/bg253.webp",
-        "/galleryphotos/2025/bhogi/IMG_2892.webp",
-        
-        
-        
         "/galleryphotos/2025/bhogi/bg2k253.webp",
-        "/galleryphotos/2025/bhogi/bg255.webp",
-        "/galleryphotos/2025/bhogi/bg2k251.webp",
-        "/galleryphotos/2025/bhogi/bg254.webp",
-        "/galleryphotos/2025/bhogi/bg256.webp",
-
-        // "/galleryphotos/2025/bhogi/bg25_1.webp",
-        "/galleryphotos/2025/bhogi/bg257.webp",
+        "/galleryphotos/2025/bhogi/bg2k252.webp",
+        "/galleryphotos/2025/bhogi/bg251.webp",
         "/galleryphotos/2025/bhogi/2024bg1.webp",
-        "/galleryphotos/2025/bhogi/bg25_2.webp",
-        "/galleryphotos/2025/bhogi/DSC_0161.webp",
-        "/galleryphotos/2025/bhogi/DSC_0259.webp",
-        "/galleryphotos/2025/bhogi/DSC_0253.webp",
-        "/galleryphotos/2025/bhogi/DSC_0246.webp",
+        "/galleryphotos/2025/bhogi/bg253.webp",
+        "/galleryphotos/2025/bhogi/bg255.webp",
+        "/galleryphotos/2025/bhogi/DSC_0267.webp",
+        "/galleryphotos/2025/bhogi/bg256.webp",
+        "/galleryphotos/2025/bhogi/bg25_1.webp",
+        "/galleryphotos/2025/bhogi/bg25_21.webp",
+        "/galleryphotos/2025/bhogi/bg2k251.webp",
         
-        // "/galleryphotos/2025/bhogi/DSC_0242.webp",
+        
       ],
     },
   },
@@ -119,18 +76,11 @@ export const photoGroups = [
         "/galleryphotos/2024/sankranthi/framebird-converted1/IMG_6765.webp",
       ],
       Bhogi: [
-        
-        
         "/galleryphotos/2024/bhogi/bg244.webp",
-        
-        
         "/galleryphotos/2024/bhogi/bg24_1.webp",
         "/galleryphotos/2024/bhogi/bg242.webp",
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.08 (1).webp",
         "/galleryphotos/2024/bhogi/bg243.webp",
-
-
-
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.00.webp",
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.01 (1).webp",
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.01.webp",
