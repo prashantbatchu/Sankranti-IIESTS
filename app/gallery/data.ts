@@ -65,18 +65,11 @@ export const photoGroups = [
         "/galleryphotos/2024/sankranthi/framebird-converted1/IMG_6572.webp",
       ],
       Bhogi: [
-        
-        
         "/galleryphotos/2024/bhogi/bg244.webp",
-        
-        
         "/galleryphotos/2024/bhogi/bg24_1.webp",
         "/galleryphotos/2024/bhogi/bg242.webp",
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.08 (1).webp",
         "/galleryphotos/2024/bhogi/bg243.webp",
-
-
-
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.00.webp",
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.01 (1).webp",
         "/galleryphotos/2024/bhogi/framebird-converted/WhatsApp Image 2025-12-24 at 16.37.01.webp",
